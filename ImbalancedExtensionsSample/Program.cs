@@ -29,6 +29,10 @@ var oversampledData = mlContext.Data.BinaryRandomOversample<SampleData>(data);
 //Perform random undersampling on data - delete random majority class rows until desired ratio is met
 var undersampledData = mlContext.Data.BinaryRandomUndersample(data, new SampleDataEqualityComparer());
 
+//Using other helper extension methods
+var rowCount = mlContext.Data.GetRowCount(data);
+var binaryClassRatio = mlContext.Data.GetBinaryClassRatio(data);
+
 //Display experiment results on console
 Console.WriteLine("Initial data set:");
 foreach(var item in dataList)
