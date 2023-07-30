@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImbalancedExtensionsSample", "ImbalancedExtensionsSample\ImbalancedExtensionsSample.csproj", "{21295443-4E27-4CE8-9CF1-3BA151357F19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImbalancedExtensions.Sample", "ImbalancedExtensionsSample\ImbalancedExtensions.Sample.csproj", "{21295443-4E27-4CE8-9CF1-3BA151357F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImbalancedExtensions", "ImbalancedExtensions\ImbalancedExtensions.csproj", "{AE66481B-062F-442B-BD86-002B5F589D20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{21295443-4E27-4CE8-9CF1-3BA151357F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21295443-4E27-4CE8-9CF1-3BA151357F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21295443-4E27-4CE8-9CF1-3BA151357F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE66481B-062F-442B-BD86-002B5F589D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE66481B-062F-442B-BD86-002B5F589D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE66481B-062F-442B-BD86-002B5F589D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE66481B-062F-442B-BD86-002B5F589D20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
